@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -278,7 +282,7 @@ h6 {
 }
 
 #main .about .row img {
-  width: 450px;
+  width: 400px;
   height: 450px;
   margin-bottom: 10px;
 }
@@ -440,7 +444,7 @@ section {
 }
 
 /* back to top */
-.back-to-top {
+.totop {
   position: fixed;
   display: none;
   width: 40px;
@@ -454,13 +458,13 @@ section {
   z-index: 9999;
 }
 
-.back-to-top i {
+.totop i {
   font-size: 24px;
   position: absolute;
   top: 7px;
   left: 8px;
 }
-.back-to-top:hover {
+.totop:hover {
   color: #ffff;
   background: #00ecb1;
   transition: background 0.5s ease-in-out;
